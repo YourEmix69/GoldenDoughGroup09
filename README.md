@@ -20,7 +20,7 @@ Our goal is to establish a well-known pâtisserie for its delicious cuisine and 
 
 ### PROJECT SITEMAP
 
-![alt text]
+![sitemap](https://github.com/YourEmix69/GoldenDoughGroup09/blob/main/Golden%20Dough%20Pastry/img/ProjectSiteMap.png)
 
 
 ### GROUP CONTRIBUTIONS
@@ -51,9 +51,10 @@ Two of the team members prepared 4 web pages for the html codes and other two me
  - Creating the header, navigation bar and using some icons from the bootstrap css files (CSS)
 
 #### **Al-Yazidi Abdulaziz Hussein Ghaleb (1828979)**
-- Pages: Custom Cookies, Special Packages, Add-ons and Contact Us
-- Web elements: Search and cart icons, Google Maps embed, social media icons
-- Added pictures of some of the products
+- Pages: Menu 
+- Web elements: Food images, prices 
+- Added pictures of Foods
+- Adding Details
 
 ### USE OF THIRD PARTY RESOURCES
 
