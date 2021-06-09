@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="assets/vendor/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/css/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&amp;display=swap" rel="stylesheet">
+	
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-phone d-flex align-items-center"><span>+60111333265</span></i>
+        <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 10AM - 10PM</span></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+
+  <header id="header" class="fixed-top d-flex align-items-cente">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="Home.html">GOLDEN DOUGH | PASTRY</a></h1>
+      <!-- <img class="logo" src="img/ShopLogo.jpeg" alt="Logo" width="100" height="70"> -->
+	  
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto" href="home.html">Home</a></li>
+          <li><a class="nav-link scrollto active" href="promotion.html">Promotion</a></li>
+          <li><a class="nav-link scrollto" href="menu.html">Menu</a></li>
+          <li><a class="nav-link scrollto" href="aboutUs.html">About Us</a></li>
+		      <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+        </ul>
+			  <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+	  <a href="login.html" class="register-btn scrollto d-none d-lg-flex">Login or Register</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+  <!-- ======= Menu Section ======= -->
+
+  <section id="menu" class="menu section-bg">
+       <div class="container" data-aos="fade-up">
+
+         <div class="section-title">
+           <br><br><br><br><br><br>
+           <p>Login to your Account</p>	   
+       </div>  
+	   
+	   
+	<div class="container col-lg-12" data-aos="fade-up">
+
+      <div class="row">
+		 
+        <div class="col-lg-6">
+			<form id="myForm" class="form-login-container">
+			<input type="text" id="email_text" placeholder="Enter Email" name="email" required>
+			<input type="password" id="password_text" placeholder="Enter Password" name="psw" required>
+			<button type="submit" id="button" class="btn">Submit</button>
+			<a id="register" href="">Not a member? Register Now!</a>
+			</form>   		
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			
+			</p>
+        </div>
+
+        <div class="col-lg-6">
+         	<form id="myForm2" action="/action_page.php" class="form-register-container">
+			<input type="text" placeholder="Enter Username" name="username" required>				
+			<input type="text" placeholder="Enter Email" name="email" required>
+			<input type="password" placeholder="Enter Password" name="psw" required>			
+			<input type="text" placeholder="Enter Mobile No" name="mobileno" required>
+			<button type="submit" class="btn">Register</button>
+			</form>
+		</div>
+
+       </div>
+
+	</div>
+	
+	</div>
+	  
+     </section><!-- End Menu Section -->
+
+  <!-- ======= Footer Section ======= -->
+  
+  <footer id="footer" class="d-flex justify-content-center">
+  <p><br>&nbsp;&copy;&nbsp;2021 Copyright: Golden Dough | Pastry Sdn. Bhd. All rights reserved.&nbsp;&nbsp;&nbsp;
+			     <!-- <i class="bi bi-facebook"><a href="www.facebook.com/goldendoughpastry">&nbsp;&nbsp;</a></i> -->
+				 <!-- <i class="bi bi-instagram"><a href="www.instagram.com/goldendoughpastry">&nbsp;&nbsp;</a></i> -->
+				 <!-- <i class="bi bi-twitter"><a href="www.twitter.com/goldendoughpastry">&nbsp;&nbsp;</a></i> -->
+  </p>
+  </footer>
+	
+  <!-- ======= Sidebar Section ======= -->
+
+  <div id="sidebar">
+	  
+	  <div class="toggle-btn" style="font-color:#fff"> 
+	  <span></span>
+	  <span></span>
+	  <span></span>
+	  <div class="social facebook btn btn-primary btn-sm" style="border:0;background-color:#3b5998">
+		<a href="https://www.facebook.com" target="_blank">
+		<p><i class="fa fa-facebook"></i></p>
+		</a>
+	  </div><br>
+  
+      <div class="social twitter btn btn-primary btn-sm" style="border:0;background-color:#4099FF">
+      <a href="https://www.twitter.com" target="_blank">
+      <p><i class="fa fa-twitter"></i></p>
+      </a>
+      </div><br>
+	  
+      <div class="social instagram btn btn-primary btn-sm "style="border:0;background-color:#8a3ab9">
+      <a href="https://www.instagram.com" target="_blank">
+      <p><i class="fa fa-instagram"></i></p>
+      </a>
+	  </div><br>
+	  
+	  <div class="social youtube btn btn-primary btn-sm "style="border:0;background-color:#FF0000">
+      <a href="https://www.youtube.com" target="_blank">
+      <p><i class="fa fa-youtube"></i></p>
+      </a>
+	  </div><br>
+	  
+	  <div class="social youtube btn btn-primary btn-sm "style="border:0;background-color:#32CD32">
+      <a href="" target="_blank">
+      <p><i class="fa fa-comment"></i></p>
+      </a>
+	  </div>
+	  
+	  
+	  </div>
+	  </div>
+	
+
+	
+<script>
+$(document).ready(function(){
+
+$('#button').click(function(e){
+    e.preventDefault();
+	
+	var email = $("#email_text").val();  
+
+if (email !== "") {  // If something was entered
+    if (!isValidEmailAddress(email)) {
+	 toastr.error('', 'Invalid Email!')
+        $("#email_text").focus();   //focus on email field
+        return false;  
+    }else{
+	toastr.success('', 'Successfully login')
+	  setTimeout(function(){
+       window.location.href = 'home.html';
+    }, 5000)     
+	
+	}
+} 
+
+function isValidEmailAddress(emailAddress) {
+    var pattern = new RegExp(/^(("[\w-+\s]+")|([\w-+]+(?:\.[\w-+]+)*)|("[\w-+\s]+")([\w-+]+(?:\.[\w-+]+)*))(@((?:[\w-+]+\.)*\w[\w-+]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][\d]\.|1[\d]{2}\.|[\d]{1,2}\.))((25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\.){2}(25[0-5]|2[0-4][\d]|1[\d]{2}|[\d]{1,2})\]?$)/i);
+    return pattern.test(emailAddress);
+};
+
+});
+
+});
+</script>
+
+
+<script>
+$('#register').click(function(e){
+    e.preventDefault();
+	
+var element = document.getElementById('myForm2');
+element.style.opacity = "1.0";
+element.style.filter  = 'alpha(opacity=90)'; // IE fallback
+
+var element = document.getElementById('myForm');
+element.style.opacity = "0.2";
+element.style.filter  = 'alpha(opacity=90)'; // IE fallback
+
+});
+</script>
+
+
+</body>
+
+</html>
