@@ -55,6 +55,7 @@ Two of the team members prepared 4 web pages for the html codes and other two me
 - Web elements: Food images, prices 
 - Added pictures of Foods
 - Adding Details
+- Using HTML, CSS
 
 ### USE OF THIRD PARTY RESOURCES
 
